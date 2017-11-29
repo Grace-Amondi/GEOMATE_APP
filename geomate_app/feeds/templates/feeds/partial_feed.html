@@ -1,0 +1,71 @@
+{% load i18n %} {% load humanize %} {#{% load social_share %}#}
+
+
+<div id="fb-root"></div>
+<script>
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<li feed-id="{{ feed.pk }}" csrf="{{ csrf_token }}">
+  <div class="feed-container">
+    <a href="{% url 'profile' feed.user.username %}">
+      <img src="{{ feed.user.profile.get_picture }}" class="user">
+    </a>
+    <div class="post">
+      {% if feed.user == user %}
+      <span class="glyphicon glyphicon-remove remove-feed" title="{% trans 'Click to remove this feed' %}"></span>
+      {% endif %}
+      <h3>
+        <a href="{% url 'profile' feed.user.username %}">{{ feed.user.profile.get_screen_name }}</a>
+        <small>{{ feed.date|naturaltime }}</small>
+      </h3>
+      <p>{{ feed.linkfy_post|safe }}</p>
+      <div class="interaction">
+        {% if user in feed.get_likers %}
+        <a href="#" style="text-decoration: none;" class="like unlike">
+          <span class="glyphicon glyphicon-thumbs-up"></span>
+          <span class="text">{% trans 'Unlike' %}</span>
+          (
+          <span class="like-count">{{ feed.likes }}</span>)
+        </a>
+        {% else %}
+        <a href="#" style="text-decoration: none;" class="like">
+          <span class="glyphicon glyphicon-thumbs-up"></span>
+          <span class="text">{% trans 'Like' %}</span>
+          (
+          <span class="like-count">{{ feed.likes }}</span>)
+        </a>
+        {% endif %}
+        <a href="#" style="text-decoration: none;" class="comment">
+          <span class="glyphicon glyphicon-comment"></span> {% trans 'Comment' %} (
+          <span class="comment-count">{{ feed.comments }}</span>)
+        </a>
+        <a href="#" download="user.png" style="text-decoration: none;" class="download">
+          <span class="glyphicon glyphicon-cloud-download"></span> {% trans 'Download' %}
+        </a>
+        <div class="fb-share-button" data-href="https://geomate.herokuapp.com/" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+          <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a>
+        </div>
+        <div class="twitter-share-button" data-href="https://gracey.me" data-layout="button_count" data-size="small" data-mobile-iframe="true">
+          <a class="twitter-share-button" target="_blank" href="https://twitter.com/intent/tweet"></a>
+        </div>
+
+        <div class="comments">
+          <form role="form" method="post" action="{{ comment }}" onsubmit="return false">
+            {% csrf_token %}
+            <input type="hidden" name="feed" value="{{ feed.pk }}">
+            <input type="text" class="form-control input-sm" placeholder="{% trans 'Write a comment...' %}" name="post" maxlength="255">
+          </form>
+          <ol class="clearfix">
+            {% comment %} Place holder to load feed comments {% endcomment %}
+          </ol>
+        </div>
+      </div>
+    </div>
+</li>

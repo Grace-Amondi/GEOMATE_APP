@@ -1,0 +1,472 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-17 15:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: geomate_app/activities/templates/activities/last_notifications.html:12
+msgid "You have no unread notification"
+msgstr "Usted no tiene ninguna notificación sin leer"
+
+#: geomate_app/activities/templates/activities/last_notifications.html:14
+msgid "See all"
+msgstr "Ver todo"
+
+#: geomate_app/activities/templates/activities/notifications.html:27
+msgid "You have no notification"
+msgstr "Usted no tiene ninguna notificación"
+
+#: geomate_app/articles/models.py:35
+#: geomate_app/articles/templates/articles/article.html:15
+msgid "Article"
+msgstr "Artículo"
+
+#: geomate_app/articles/models.py:36
+#: geomate_app/articles/templates/articles/article.html:14
+#: geomate_app/articles/templates/articles/articles.html:5
+#: geomate_app/articles/templates/articles/articles.html:17
+#: geomate_app/articles/templates/articles/drafts.html:11
+#: geomate_app/articles/templates/articles/edit.html:11
+#: geomate_app/articles/templates/articles/write.html:11
+#: geomate_app/core/templates/core/profile.html:30
+#: geomate_app/search/templates/search/partial_articles_results.html:3
+#: geomate_app/search/templates/search/partial_results_menu.html:9
+#: geomate_app/templates/base.html:46
+msgid "Articles"
+msgstr "Artículos"
+
+#: geomate_app/articles/models.py:86
+#, fuzzy
+#| msgid "Article"
+msgid "Article Comment"
+msgstr "Artículo"
+
+#: geomate_app/articles/models.py:87
+#, fuzzy
+#| msgid "Articles"
+msgid "Article Comments"
+msgstr "Artículos"
+
+#: geomate_app/articles/templates/articles/article.html:20
+#, fuzzy
+msgid "Edit Article"
+msgstr "Escribe el artículo"
+
+#: geomate_app/articles/templates/articles/articles.html:14
+#: geomate_app/articles/templates/articles/write.html:12
+#, fuzzy
+msgid "Write Article"
+msgstr "Escribe un artículo"
+
+#: geomate_app/articles/templates/articles/articles.html:16
+#: geomate_app/articles/templates/articles/drafts.html:12
+#: geomate_app/articles/templates/articles/edit.html:12
+msgid "Drafts"
+msgstr "Borradores"
+
+#: geomate_app/articles/templates/articles/articles.html:25
+msgid "There is no published article yet"
+msgstr "No hay ningún artículo publicado aún"
+
+#: geomate_app/articles/templates/articles/articles.html:25
+msgid "Be the first one to publish"
+msgstr "¡Sé el primero en publicar"
+
+#: geomate_app/articles/templates/articles/articles.html:30
+msgid "Popular Tags"
+msgstr "Etiquetas populares"
+
+#: geomate_app/articles/templates/articles/drafts.html:17
+msgid "Title"
+msgstr "Título"
+
+#: geomate_app/articles/templates/articles/drafts.html:18
+msgid "Content"
+msgstr "Contenido"
+
+#: geomate_app/articles/templates/articles/drafts.html:19
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: geomate_app/articles/templates/articles/drafts.html:36
+msgid "No draft to display"
+msgstr "Ningún borrador para mostrar"
+
+#: geomate_app/articles/templates/articles/edit.html:13
+msgid "Edit"
+msgstr "Editar"
+
+#: geomate_app/articles/templates/articles/edit.html:34
+#: geomate_app/articles/templates/articles/write.html:33
+msgid "Publish"
+msgstr "Publicar"
+
+#: geomate_app/articles/templates/articles/edit.html:35
+#: geomate_app/articles/templates/articles/write.html:34
+msgid "Save Draft"
+msgstr "Guardar borrador"
+
+#: geomate_app/articles/templates/articles/edit.html:36
+#: geomate_app/articles/templates/articles/write.html:36
+#: geomate_app/feeds/templates/feeds/feeds.html:41
+#: geomate_app/questions/templates/questions/ask.html:31
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: geomate_app/articles/templates/articles/partial_article_comments.html:3
+#, fuzzy
+#| msgid "Press Ctrl + P to compose"
+msgid "Press Ctrl + Enter to post"
+msgstr "Presione Ctrl + P para publicar"
+
+#: geomate_app/articles/templates/articles/partial_article_comments.html:4
+#: geomate_app/core/templates/core/profile.html:34
+#, fuzzy
+#| msgid "Comment"
+msgid "Comments"
+msgstr "Comentarios"
+
+#: geomate_app/articles/templates/articles/partial_article_comments.html:13
+#: geomate_app/feeds/templates/feeds/partial_feed.html:36
+msgid "Write a comment..."
+msgstr "Escribe un comentario..."
+
+#: geomate_app/articles/templates/articles/partial_article_comments.html:21
+#, fuzzy
+#| msgid "Be the first one to comment"
+msgid "Be the first one to comment!"
+msgstr "¡Sé el primero en comentar"
+
+#: geomate_app/articles/templates/articles/write.html:35
+msgid "Preview"
+msgstr "Vista previa"
+
+#: geomate_app/authentication/templates/authentication/signup.html:12
+#: geomate_app/core/templates/core/cover.html:41
+msgid "Sign up for geomate_app"
+msgstr "Inscríbete en geomate_app"
+
+#: geomate_app/authentication/templates/authentication/signup.html:27
+msgid "Create an account"
+msgstr "Crear una cuenta"
+
+#: geomate_app/core/templates/core/cover.html:22
+#: geomate_app/core/templates/core/cover.html:40
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: geomate_app/core/templates/core/cover.html:26
+#: geomate_app/core/templates/core/network.html:29
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: geomate_app/core/templates/core/cover.html:33
+#: geomate_app/core/templates/core/partial_settings_menu.html:5
+msgid "Password"
+msgstr "Contraseña"
+
+#: geomate_app/core/templates/core/network.html:5 geomate_app/templates/base.html:48
+msgid "Network"
+msgstr "Red de Contactos"
+
+#: geomate_app/core/templates/core/network.html:27
+msgid "Job Title"
+msgstr "Posición"
+
+#: geomate_app/core/templates/core/network.html:31
+msgid "Location"
+msgstr "Ubicación"
+
+#: geomate_app/core/templates/core/network.html:34
+msgid "Url"
+msgstr "Url"
+
+#: geomate_app/core/templates/core/partial_settings_menu.html:3
+msgid "Profile"
+msgstr "Perfil"
+
+#: geomate_app/core/templates/core/partial_settings_menu.html:4
+msgid "Picture"
+msgstr "Foto"
+
+#: geomate_app/core/templates/core/password.html:4
+#: geomate_app/core/templates/core/password.html:8
+#: geomate_app/core/templates/core/picture.html:5
+#: geomate_app/core/templates/core/picture.html:15
+#: geomate_app/core/templates/core/settings.html:10
+#: geomate_app/templates/base.html:76
+msgid "Account Settings"
+msgstr "Configuración de la cuenta"
+
+#: geomate_app/core/templates/core/password.html:23
+msgid "Change Password"
+msgstr "Cambiar contraseña"
+
+#: geomate_app/core/templates/core/password.html:43
+#: geomate_app/core/templates/core/settings.html:57
+msgid "Save"
+msgstr "Guardar"
+
+#: geomate_app/core/templates/core/picture.html:30
+msgid "Change Picture"
+msgstr "Cambiar Foto"
+
+#: geomate_app/core/templates/core/picture.html:35
+msgid "Upload new picture"
+msgstr "Subir nueva foto"
+
+#: geomate_app/core/templates/core/picture.html:46
+msgid "Crop Picture"
+msgstr "Recortar foto"
+
+#: geomate_app/core/templates/core/picture.html:50
+msgid "Crop the profile picture and then click on the"
+msgstr "Recortar la foto de perfil y luego haga clic en el"
+
+#: geomate_app/core/templates/core/picture.html:50
+msgid "Save Picture"
+msgstr "Guardar Foto"
+
+#: geomate_app/core/templates/core/picture.html:50
+msgid "button"
+msgstr "botón"
+
+#: geomate_app/core/templates/core/picture.html:65
+msgid "Close"
+msgstr "Cerrar"
+
+#: geomate_app/core/templates/core/picture.html:66
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: geomate_app/core/templates/core/profile.html:26 geomate_app/feeds/models.py:24
+msgid "Feeds"
+msgstr "Feeds"
+
+#: geomate_app/core/templates/core/profile.html:38
+#: geomate_app/questions/templates/questions/ask.html:6
+#: geomate_app/questions/templates/questions/question.html:14
+#: geomate_app/questions/templates/questions/questions.html:17
+#: geomate_app/search/templates/search/partial_questions_results.html:4
+#: geomate_app/search/templates/search/partial_results_menu.html:13
+msgid "Questions"
+msgstr "Preguntas"
+
+#: geomate_app/core/templates/core/profile.html:42
+#, fuzzy
+#| msgid "Answered"
+msgid "Answers"
+msgstr "Contestada"
+
+#: geomate_app/core/templates/core/profile.html:46
+msgid "Global Interactions"
+msgstr "Interacciones globales"
+
+#: geomate_app/core/templates/core/profile.html:71
+#, fuzzy
+#| msgid "Last Feeds by"
+msgid "Last Feeds"
+msgstr "Últimos Feeds de"
+
+#: geomate_app/core/templates/core/settings.html:25
+msgid "Edit Profile"
+msgstr "Editar Perfil"
+
+#: geomate_app/feeds/models.py:23 geomate_app/feeds/templates/feeds/feed.html:7
+#: geomate_app/feeds/templates/feeds/feeds.html:20
+#: geomate_app/search/templates/search/partial_feed_results.html:4
+#: geomate_app/search/templates/search/partial_results_menu.html:5
+#: geomate_app/templates/base.html:45
+msgid "Feed"
+msgstr "Feed"
+
+#: geomate_app/feeds/templates/feeds/feeds.html:17
+msgid "Press Ctrl + P to compose"
+msgstr "Presione Ctrl + P para redactar"
+
+#: geomate_app/feeds/templates/feeds/feeds.html:18
+msgid "Compose"
+msgstr "Redactar"
+
+#: geomate_app/feeds/templates/feeds/feeds.html:25
+#, fuzzy
+#| msgid "new posts"
+msgid "Latest posts"
+msgstr "mensajes nuevos"
+
+#: geomate_app/feeds/templates/feeds/feeds.html:30
+msgid "Compose a new post"
+msgstr "Redactar un nuevo mensaje"
+
+#: geomate_app/feeds/templates/feeds/feeds.html:39
+msgid "Post"
+msgstr "Mensaje"
+
+#: geomate_app/feeds/templates/feeds/feeds.html:47
+msgid "new posts"
+msgstr "mensajes nuevos"
+
+#: geomate_app/feeds/templates/feeds/partial_feed.html:9
+msgid "Click to remove this feed"
+msgstr "Haga clic para eliminar esta feed"
+
+#: geomate_app/feeds/templates/feeds/partial_feed.html:17
+msgid "Unlike"
+msgstr "No me gusta"
+
+#: geomate_app/feeds/templates/feeds/partial_feed.html:23
+msgid "Like"
+msgstr "Me gusta"
+
+#: geomate_app/feeds/templates/feeds/partial_feed.html:28
+msgid "Comment"
+msgstr "Comentario"
+
+#: geomate_app/feeds/templates/feeds/partial_feed_comments.html:7
+#, fuzzy
+#| msgid "Click to remove this feed"
+msgid "Click to remove this comment"
+msgstr "Haga clic para eliminar esta feed"
+
+#: geomate_app/feeds/templates/feeds/partial_feed_comments.html:21
+msgid "Be the first one to comment"
+msgstr "¡Sé el primero en comentar"
+
+#: geomate_app/messenger/models.py:20
+msgid "Message"
+msgstr "Mensage"
+
+#: geomate_app/messenger/models.py:21
+msgid "Messages"
+msgstr "Mensages"
+
+#: geomate_app/messenger/templates/messenger/inbox.html:4
+#: geomate_app/messenger/templates/messenger/inbox.html:6
+msgid "Inbox"
+msgstr "Bandeja de entrada"
+
+#: geomate_app/messenger/templates/messenger/inbox.html:15
+msgid "This is the begining of a great new conversation."
+msgstr "Este es el comienzo de una gran conversación."
+
+#: geomate_app/messenger/templates/messenger/inbox.html:16
+msgid "Let's get started now!"
+msgstr "¡Comencemos!"
+
+#: geomate_app/questions/templates/questions/ask.html:7
+#: geomate_app/questions/templates/questions/questions.html:15
+msgid "Ask Question"
+msgstr "Haz una pregunta"
+
+#: geomate_app/questions/templates/questions/ask.html:30
+msgid "Post Your Question"
+msgstr "Publicar tu pregunta"
+
+#: geomate_app/questions/templates/questions/partial_answer.html:7
+#: geomate_app/questions/templates/questions/question.html:20
+msgid "Click to up vote; click again to toggle"
+msgstr "Haga clic para up vote; haga clic de nuevo para cambiar tu voto"
+
+#: geomate_app/questions/templates/questions/partial_answer.html:9
+#: geomate_app/questions/templates/questions/question.html:22
+msgid "Click to down vote; click again to toggle"
+msgstr "Haga clic para vote down; haga clic de nuevo para alternar"
+
+#: geomate_app/questions/templates/questions/partial_answer.html:11
+msgid "Click to unaccept the answer"
+msgstr "Haga clic para desaceptar la respuesta"
+
+#: geomate_app/questions/templates/questions/partial_answer.html:15
+msgid "Click to accept the answer"
+msgstr "Haga clic para aceptar la respuesta"
+
+#: geomate_app/questions/templates/questions/partial_answer.html:22
+msgid "answered"
+msgstr "contestado"
+
+#: geomate_app/questions/templates/questions/question.html:15
+msgid "Question"
+msgstr "Pregunta"
+
+#: geomate_app/questions/templates/questions/question.html:63
+msgid "Post Your Answer"
+msgstr "Publicar tu respuesta"
+
+#: geomate_app/questions/templates/questions/questions.html:21
+msgid "Unanswered"
+msgstr "Sin respuesta"
+
+#: geomate_app/questions/templates/questions/questions.html:22
+msgid "Answered"
+msgstr "Contestada"
+
+#: geomate_app/questions/templates/questions/questions.html:23
+msgid "All Questions"
+msgstr "Todas las preguntas"
+
+#: geomate_app/questions/templates/questions/questions.html:28
+msgid "No question to display"
+msgstr "No hay preguntas para mostrar"
+
+#: geomate_app/search/templates/search/partial_articles_results.html:24
+msgid "No article found"
+msgstr "No se encontró ningún articulo"
+
+#: geomate_app/search/templates/search/partial_feed_results.html:23
+msgid "No feed found"
+msgstr "No se encontró ningún feed"
+
+#: geomate_app/search/templates/search/partial_questions_results.html:22
+#, fuzzy
+#| msgid "No question to display"
+msgid "No question found"
+msgstr "No hay preguntas para mostrar"
+
+#: geomate_app/search/templates/search/partial_results_menu.html:17
+#: geomate_app/search/templates/search/partial_users_results.html:3
+#, fuzzy
+#| msgid "Username"
+msgid "Users"
+msgstr "Usuarios"
+
+#: geomate_app/search/templates/search/partial_users_results.html:19
+msgid "No user found"
+msgstr "No se encontraron usuarios"
+
+#: geomate_app/search/templates/search/results.html:17
+#: geomate_app/search/templates/search/search.html:22
+msgid "Search"
+msgstr "Buscar"
+
+#: geomate_app/search/templates/search/results.html:23
+#: geomate_app/search/templates/search/search.html:19
+msgid "Search Feed, Articles, Questions and Users"
+msgstr "Buscar en Feeds, Articulos, Preguntas y Usuarios"
+
+#: geomate_app/templates/base.html:47
+msgid "Q&A"
+msgstr "PyR"
+
+#: geomate_app/templates/base.html:75
+#, fuzzy
+#| msgid "Profile"
+msgid "My Profile"
+msgstr "Mi perfil"
+
+#: geomate_app/templates/base.html:78
+msgid "Log out"
+msgstr "Finalizar la sesión"

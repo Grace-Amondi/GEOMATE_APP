@@ -1,0 +1,1 @@
+web: gunicorn geomate_app.wsgi --log-file -
